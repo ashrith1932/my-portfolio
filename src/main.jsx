@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { ArrowUpRight, Github, Linkedin, Mail, ExternalLink, Code2, Cpu, Database, Sparkles, Terminal, Trophy, GraduationCap, Layers3, ChevronRight } from 'lucide-react';
+import { ArrowUpRight, GithubIcon, LinkedinIcon, Mail, ExternalLink, Code2, Cpu, Database, Sparkles, Terminal, Trophy, GraduationCap, Layers3, ChevronRight } from "lucide-react";
 import { motion } from 'motion/react';
 import './styles.css';
 
@@ -67,7 +67,7 @@ function App(){
           <div className="eyebrow"><span className="pulse"/> COMPUTER SCIENCE & ENGINEERING · MNNIT ALLAHABAD</div>
           <h1>I build <em>systems</em><br/>that make ideas real.</h1>
           <p className="hero-text">I'm Tummala Ashrith Reddy — a CSE student who moves between algorithms, full-stack products and AI systems. I like understanding the machinery underneath a product, then turning it into something people can actually use.</p>
-          <div className="hero-actions"><a className="button primary" href="#work">Explore the work <ArrowUpRight size={17}/></a><a className="button ghost" href={GITHUB} target="_blank" rel="noreferrer"><Github size={17}/> GitHub</a></div>
+          <div className="hero-actions"><a className="button primary" href="#work">Explore the work <ArrowUpRight size={17}/></a><a className="button ghost" href={GITHUB} target="_blank" rel="noreferrer"><GithubIcon size={17}/> GitHub</a></div>
         </div>
         <div className="hero-card">
           <div className="card-top"><span>BUILD LOG / 2026</span><span>01—04</span></div>
@@ -91,7 +91,7 @@ function App(){
       <section className="closing"><div className="closing-orb"/><Reveal><span className="kicker">LET'S BUILD SOMETHING</span><h2>Have a hard problem?<br/><em>I'm interested.</em></h2><a className="button primary big" href="mailto:tummalaashrithreddy2391@gmail.com">Start a conversation <ArrowUpRight size={18}/></a></Reveal></section>
     </main>
 
-    <footer><div><b>Tummala Ashrith Reddy</b><span>Computer Science & Engineering · MNNIT Allahabad</span></div><div className="footer-links"><a href={GITHUB} target="_blank" rel="noreferrer"><Github size={16}/></a><a href={LINKEDIN} target="_blank" rel="noreferrer"><Linkedin size={16}/></a><a href="mailto:tummalaashrithreddy2391@gmail.com"><Mail size={16}/></a></div><span className="made">© 2026 · built with React</span></footer>
+    <footer><div><b>Tummala Ashrith Reddy</b><span>Computer Science & Engineering · MNNIT Allahabad</span></div><div className="footer-links"><a href={GITHUB} target="_blank" rel="noreferrer"><GithubIcon size={16}/></a><a href={LINKEDIN} target="_blank" rel="noreferrer"><LinkedinIcon size={16}/></a><a href="mailto:tummalaashrithreddy2391@gmail.com"><Mail size={16}/></a></div><span className="made">© 2026 · built with React</span></footer>
   </div>
 }
 
