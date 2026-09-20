@@ -47,7 +47,17 @@ function setStored(key, value) {
 
 const projects = [
   {
-    number: '01', title: 'Source-Bias Analyzer', label: 'AI / RETRIEVAL',
+    number: '01', title: 'Nerdding', label: 'PRODUCT / NEXT.JS',
+    description: 'Designing the social layer around people who build: profiles, projects, discovery, affiliations and community context.',
+    problem: 'Early builders need more than a profile; they need a place where projects, people and opportunities can be discovered together.',
+    build: 'The public frontend uses Next.js, React and TypeScript with API-backed authentication and data flows. Guest-readable surfaces keep discovery open while authenticated actions stay protected.',
+    outcome: 'The product surface includes project and profile discovery plus launch-ready legal routes, giving the platform a stronger foundation for a real community experience.',
+    stack: ['Next.js', 'React', 'TypeScript', 'Supabase', 'Drizzle'], metric: 'Product frontend',
+    href: `${GITHUB}/nerddings-frontend`, featured: false,
+  },
+
+  {
+    number: '02', title: 'Source-Bias Analyzer', label: 'AI / RETRIEVAL',
     description: 'Making news bias explainable by grounding an analysis in evidence from multiple publishers instead of a single model response.',
     problem: 'News stories are fragmented across sources, and a confident answer is not the same as a defensible one.',
     build: 'I orchestrated 39+ RSS/BFS scrapers with an Asyncio producer-consumer pipeline, then combined FAISS semantic search, BM25 lexical matching, publisher credibility weighting and reranking.',
@@ -56,7 +66,7 @@ const projects = [
     href: `${GITHUB}/Source-Bias-Analyzer`, featured: true,
   },
   {
-    number: '02', title: 'CitiSolve', label: 'CIVIC TECH / MERN',
+    number: '03', title: 'CitiSolve', label: 'CIVIC TECH / MERN',
     description: 'Turning a civic complaint into a trackable workflow with clear ownership from report to resolution.',
     problem: 'A complaint is only useful when citizens can submit evidence, the right team can act on it and progress is visible afterwards.',
     build: 'I built a MERN application with Google OAuth 2.0, JWT and bcrypt authentication, Cloudinary uploads, Nodemailer notifications and role-based workflows for citizens and administrators.',
@@ -64,15 +74,7 @@ const projects = [
     stack: ['React', 'Node.js', 'Express', 'MongoDB', 'Gemini', 'OAuth 2.0'], metric: 'Multi-role workflow',
     href: `${GITHUB}/CitiSolve`, featured: true,
   },
-  {
-    number: '03', title: 'Nerdding', label: 'PRODUCT / NEXT.JS',
-    description: 'Designing the social layer around people who build: profiles, projects, discovery, affiliations and community context.',
-    problem: 'Early builders need more than a profile; they need a place where projects, people and opportunities can be discovered together.',
-    build: 'The public frontend uses Next.js, React and TypeScript with API-backed authentication and data flows. Guest-readable surfaces keep discovery open while authenticated actions stay protected.',
-    outcome: 'The product surface includes project and profile discovery plus launch-ready legal routes, giving the platform a stronger foundation for a real community experience.',
-    stack: ['Next.js', 'React', 'TypeScript', 'Supabase', 'Drizzle'], metric: 'Product frontend',
-    href: `${GITHUB}/nerddings-frontend`, featured: false,
-  },
+  
 ];
 
 const capabilities = [
